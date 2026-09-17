@@ -22,7 +22,7 @@
 
   <header id="hero">
     <h1>Jayant Raj</h1>
-    <p class="tagline">Full-Stack Developer · MERN · DevOps</p>
+    <p class="tagline"><span id="typed"></span><span class="cursor">|</span></p>
     <p class="summary">
       Versatile Full-Stack Developer with expertise in MERN technologies and DevOps tools.
       I build responsive web interfaces with React.js, RESTful APIs with Node.js & Express,
@@ -33,10 +33,11 @@
       <a class="btn" href="mailto:aashisingh47672@gmail.com">Email Me</a>
       <a class="btn outline" href="https://www.linkedin.com/in/jayant-raj-18aa99226" target="_blank" rel="noopener">LinkedIn</a>
     </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">&#9660;</a>
   </header>
 
   <main>
-    <section id="about">
+    <section id="about" class="reveal">
       <h2>About</h2>
       <p>
         I'm a full-stack developer experienced in designing and deploying scalable web
@@ -46,7 +47,7 @@
       </p>
     </section>
 
-    <section id="experience">
+    <section id="experience" class="reveal">
       <h2>Work Experience</h2>
       <div class="card">
         <div class="card-head">
@@ -72,7 +73,7 @@
       </div>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="reveal">
       <h2>Skills</h2>
       <div class="skill-groups">
         <div class="skill-group">
@@ -98,7 +99,7 @@
       </div>
     </section>
 
-    <section id="education">
+    <section id="education" class="reveal">
       <h2>Education</h2>
       <div class="card">
         <div class="card-head">
@@ -120,7 +121,7 @@
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="reveal">
       <h2>Contact</h2>
       <ul class="contact-list">
         <li><strong>Email:</strong> <a href="mailto:aashisingh47672@gmail.com">aashisingh47672@gmail.com</a></li>
@@ -130,8 +131,12 @@
     </section>
   </main>
 
+  <button id="back-to-top" aria-label="Back to top">&#8593;</button>
+
   <footer>
     <p>© 2026 Jayant Raj. Built with HTML & CSS.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
